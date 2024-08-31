@@ -1,0 +1,61 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* 
+div h1:first-child{
+    color: blue;
+    font-size: 40px;
+}
+ */
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+ }
+
+ a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 200px;
+    font-weight: 800;
+ }
+
+ a::before{
+    content: "";
+    width: 0;
+    height: 5%;
+    background-color: brown;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    transition: 0.25s all;
+ }
+
+ a:hover::before{
+    width: 100%;
+ }
+
+ a::after{
+    content: "";
+    width: o;
+    height: 5%;
+    background-color: brown;
+    position: absolute;
+    right: 0%;
+    transition: 0.25s all;
+
+ }
+
+ a:hover::after{
+   width: 100%;
+ }
