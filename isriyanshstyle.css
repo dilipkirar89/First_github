@@ -12,7 +12,7 @@
  } 
 
  body{
-   background-color: rgb(223, 215, 206);
+   background-color: rgb(248, 245, 242);
    font-family: helvetica;
    font-size: 3vh;
    font-weight: 400;
@@ -61,7 +61,6 @@ a{
 .Right{
    display: flex;
    margin-left: 60vh;
-   
 }
 
  .left > button {
@@ -111,5 +110,54 @@ button::before{
    width: 50%;
    font-weight: 500;
    padding-left: 3vh;
-   margin-top: 8vh;
+   margin-top: 10vh;
+}
+
+
+.page3{
+   /* height: 100%; */
+    width:  100%;
+    padding-left: 3vh; 
+    display: flex;
+}
+  
+
+.page3 > h2.first-child{
+   width: 45%;
+   font-size: 10vh;
+   font-weight: 600;
+   padding-right: 20px;
+}
+
+.page3 > h2:first-child > span{
+   display: inline-block;
+   background-color: black;
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+}
+
+.page3 div{
+   width: 35%;
+}
+
+.page3 > div h2{
+   font-size: 20px;
+   font-weight: 600;
+   margin-left: 3%;
+   padding-left: 18vh;
+}
+
+.page3 > div p {
+   margin-bottom: 10vh;
+   padding-left: 20vh;
+   font-size: 20px;
+   color: #939691;
+}
+
+.page3 h2 :first-child{
+   text-align: right;
+   font-size: 20px;
+   font-weight: 600;
+   width: 20%;
 }
