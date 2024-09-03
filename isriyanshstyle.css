@@ -12,7 +12,7 @@
  } 
 
  body{
-   background-color: rgb(248, 245, 242);
+   background-color: rgb(229, 224, 218);
    font-family: helvetica;
    font-size: 3vh;
    font-weight: 400;
@@ -113,51 +113,90 @@ button::before{
    margin-top: 10vh;
 }
 
-
 .page3{
-   /* height: 100%; */
-    width:  100%;
-    padding-left: 3vh; 
-    display: flex;
-}
-  
-
-.page3 > h2.first-child{
-   width: 45%;
-   font-size: 10vh;
-   font-weight: 600;
-   padding-right: 20px;
+   width: 100%;
+   padding: 0 30px;
+   display: flex;
+   margin-bottom: 5%;
 }
 
-.page3 > h2:first-child > span{
-   display: inline-block;
-   background-color: black;
-   height: 15px;
-   width: 15px;
-   border-radius: 50%;
+.page3 > h1:first-child,
+.page4nav > h1:first-child {
+    width: 45%;
+    font-size: 25px;
+    font-weight: 600;
 }
 
-.page3 div{
-   width: 35%;
+.page3 > h1:first-child > span,
+.page4nav > h1:first-child >span{
+    display: inline-block;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
 }
 
-.page3 > div h2{
-   font-size: 20px;
-   font-weight: 600;
-   margin-left: 3%;
-   padding-left: 18vh;
+.page3 div {
+    width: 35%;
+}
+
+.page3 > div h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 2%;
+    padding-left: 100px;
 }
 
 .page3 > div p {
-   margin-bottom: 10vh;
-   padding-left: 20vh;
-   font-size: 20px;
-   color: #939691;
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 100px;
+    color: #939691;
 }
 
-.page3 h2 :first-child{
+.page3 h1:last-child {
    text-align: right;
    font-size: 20px;
-   font-weight: 600;
+   font-weight: 500;
    width: 20%;
 }
+
+.page4{
+   /* width: 100%; */
+   background-color: white;
+   padding: 0 30px;
+}
+
+.page4nav {
+   font-size: 9px;
+   font-weight: 100;
+   position: initial;
+   display: flex;
+   justify-content: space-between;
+}
+
+.page4Finally{
+   position: relative;
+   font-size: 280px;
+   font-weight: 900;
+   /* font-family: bebas; */
+   text-align: center;
+}
+
+.page4Finally > video{
+   width: 350px;
+   height: 250px;
+   object-fit: cover;
+}
+
+.footerpart{
+   font-size: 13px;
+   /* font-family: gilroy; */
+   font-weight: 300;
+   margin: auto;
+   padding-bottom: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+
