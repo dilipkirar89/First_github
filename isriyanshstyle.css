@@ -31,8 +31,6 @@ nav{
    padding-top: 2vh;
    padding-bottom: 2vh;
    position: fixed;
-
-
 }
 
 a{
@@ -113,6 +111,8 @@ button::before{
    margin-top: 10vh;
 }
 
+
+
 .page3{
    width: 100%;
    padding: 0 30px;
@@ -121,19 +121,21 @@ button::before{
 }
 
 .page3 > h1:first-child,
-.page4nav > h1:first-child {
+.page4nav > h1:first-child,
+.page5nav > h2:first-child{
     width: 45%;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .page3 > h1:first-child > span,
 .page4nav > h1:first-child >span{
-    display: inline-block;
-    background-color: black;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
+/* .page5nav > h2:first-child > span{ */
+   display: inline-block;
+   background-color: black;
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
 }
 
 .page3 div {
@@ -162,10 +164,13 @@ button::before{
    width: 20%;
 }
 
+
+
+
 .page4{
-   /* width: 100%; */
+   width: 100%;
    background-color: white;
-   padding: 0 30px;
+   padding: 0 20px;
 }
 
 .page4nav {
@@ -180,13 +185,13 @@ button::before{
    position: relative;
    font-size: 280px;
    font-weight: 900;
-   /* font-family: bebas; */
+   letter-spacing: -20px;
    text-align: center;
 }
 
 .page4Finally > video{
-   width: 350px;
-   height: 250px;
+   width: 450px;
+   height: 300px;
    object-fit: cover;
 }
 
@@ -200,3 +205,39 @@ button::before{
    justify-content: space-between;
 }
 
+
+
+
+.page5{
+   background-color: rgb(5, 3, 3);
+   width: 100%;
+   padding: 0 20px;
+}
+
+.page5nav > h2:first-child > span{
+   display: inline-block;
+   background-color: white;
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+}
+
+.page5nav > h2{
+   color: white;
+   font-size: 20px;
+   font-weight: 100;
+}
+
+.work{
+   color: white;
+   font-size: 280px;
+   font-weight: 900;
+   letter-spacing: -18px;
+   text-align: center;
+}
+
+.super{
+   color: white;
+   font-size: 30px;
+   font-weight: 100;
+}

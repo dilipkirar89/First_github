@@ -1,0 +1,38 @@
+nav > i {
+    display: none;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 455px){
+    nav > i {
+        display: initial;
+    }
+
+nav > a {
+    display: none;
+}
+
+
+.page1{
+ 
+    /* display: flex; */
+    /* padding-top: 2px; */
+    background-color: red;
+
+
+}
+ .page1 > .mid {
+    display: none;
+    display: initial;
+    align-content: space-around;
+ }
+
+ .page1 > .left p {
+    width: inherit;
+    padding-bottom: 100px;
+ }
+
+ .page1 > .left  button {
+    
+ }
+}
